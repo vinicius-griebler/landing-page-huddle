@@ -16,7 +16,7 @@ A landing page exibe informações cruciais sobre os serviços da Huddle, inclui
 
 👉 Configuração de links para redes sociais, assegurando a navegabilidade para as plataformas externas da empresa.
 
-![Texto alternativo da imagem](./src/images/readme-projeto.png)
+![Imagem do projeto](./projeto-huddle-base/src/images/readme-projeto.png)
 
 
 ## Tecnologias utilizadas:
