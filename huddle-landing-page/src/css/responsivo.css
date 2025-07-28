@@ -1,0 +1,173 @@
+@media(max-width: 1300px) and (min-width: 769px) {
+    .rodape .redes-sociais {
+        display: flex;
+        justify-content: end;
+        padding: 60px 0;
+    }
+    .conteudo .info {
+        width: 100%;
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 768px) and (min-width: 432px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+    }
+    .container{
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .cabecalho .logo img {
+        width: 160px;
+        margin: 30px auto 30px 150px;
+    }
+
+    .conteudo {
+        display: block;
+        text-align: center;
+    }
+
+    .conteudo .image-conteudo {
+        margin: 0 auto;
+    }
+
+    .image-painel {
+        max-width: 400px;
+        margin: 20px 0 0;
+        margin-left: -10px;
+    }
+
+    .conteudo .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .conteudo .info .title {
+        font-size: 26px;
+        max-width: 300px;
+    }
+
+    .conteudo .info .descricao {
+        font-size: 18px;
+        max-width: 300px;
+    }
+
+    .botao {
+        font-size: 12px;
+        padding: 12px 80px;
+    }
+
+    .rodape .redes-sociais{
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape .redes-sociais ul  {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .rodape .redes-sociais ul i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        gap: 10px;
+    }
+    
+}
+
+@media(max-width: 430px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+    }
+
+    .container{
+        min-height: 100vh;
+    }
+
+    .cabecalho {
+        display: flex;
+        margin-top: -20px;
+    }
+
+    .cabecalho .logo img {
+        width: 110px;
+    }
+
+    .conteudo {
+        display: block;
+        text-align: center;
+    }
+
+    .conteudo .image-conteudo {
+        margin: 0 auto;
+    }
+
+    .image-painel {
+        max-width: 280px;
+    }
+
+    .conteudo .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .conteudo .info .title {
+        font-size: 20px;
+        max-width: 250px;
+    }
+
+    .conteudo .info .descricao {
+        font-size: 15px;
+        max-width: 280px;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+
+    .botao {
+        font-size: 12px;
+        padding: 8px 60px;
+        margin-top: 20px;
+    }
+
+    .rodape {
+        position: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape .redes-sociais ul {
+        gap: 8px;
+        margin-top: 55px;
+        display: flex;
+        margin-left: 50px;
+        
+    }
+
+    .rodape .redes-sociais ul i {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+        
+    }
+}
